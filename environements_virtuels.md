@@ -120,6 +120,12 @@ Une fois l'environement activé, le nom apparaît entre parenthèse en début de
 
 `(env_name) user@machine :~$`
 
+Si lors de la création d'un environement l'erreur can't find virtualenv in your path apparaît ajouter au bashrc :
+
+```shell script
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/USERNAME/.local/bin/virtualenv
+```
+
 ## Pycharm
 
 Lors de la création d'un nouveau projet dans PyCharm, cette fenêtre s'ouvre.
